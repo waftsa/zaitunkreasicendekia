@@ -358,8 +358,8 @@ export default function App() {
                 <IconMail />
                 <div>
                   <div style={{ fontWeight: 700, color: 'var(--accent-gold-light)' }}>Email Resmi Redaksi</div>
-                  <a href="mailto:redaksi@zaitunkreasicendekia.com" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
-                    redaksi@zaitunkreasicendekia.com
+                  <a href="mailto:redaksi@zaitunkreasi.com" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
+                    redaksi@zaitunkreasi.com
                   </a>
                   <div style={{ fontSize: '0.85rem', color: '#d1c5b4', marginTop: '0.2rem' }}>Untuk pengiriman draf naskah & korespondensi ilmiah</div>
                 </div>
@@ -729,7 +729,7 @@ export default function App() {
                 <strong>Email:</strong> redaksi@zaitunkreasicendekia.com
               </p>
               <p style={{ fontSize: '0.88rem', color: '#d1c5b4' }}>
-                <strong>WhatsApp:</strong> +62 812-3456-7890
+                <strong>WhatsApp:</strong> +62 896-0268-5854
               </p>
             </div>
           </div>
@@ -742,7 +742,7 @@ export default function App() {
 
       {/* Floating WhatsApp Action Button */}
       <a
-        href="https://wa.me/6281234567890?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
+        href="https://wa.me/6289602685854?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
         target="_blank"
         rel="noreferrer"
         className="wa-float"
@@ -772,7 +772,7 @@ export default function App() {
                   type="text"
                   className="form-input"
                   required
-                  placeholder="Contoh: Dr. Muhammad Zulfikar, M.A."
+                  placeholder="Contoh: Dr. Lorem Ipsum, S.Kom, M.Kom"
                   value={submitForm.name}
                   onChange={(e) => setSubmitForm({ ...submitForm, name: e.target.value })}
                 />
@@ -878,7 +878,7 @@ export default function App() {
                 </p>
                 <div style={{ marginTop: '1.5rem' }}>
                   <a
-                    href={`https://wa.me/6281234567890?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
+                    href={`https://wa.me/6289602685854?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
