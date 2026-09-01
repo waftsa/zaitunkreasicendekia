@@ -120,30 +120,30 @@ export default function App() {
   const catalogData = [
     {
       id: 1,
-      title: 'Cara membuat kopi pahit ala develpor',
-      author: 'Mr. Lorem Ipsum',
+      title: 'Pingkan, Seperti Seri Daisy Musim Semi',
+      author: 'Maimon Herawati',
       isbn: 'xxx-xxx-xxxxx-x-x',
       category: 'Kajian Palestina',
-      cover: '/covers/kopi.jpg',
-      synopsis: 'Buku ini mengurai tentang perjalan kopi menemukan konsumer terbaiknya, pahit dan hitam khas developer.'
+      cover: '/covers/katalog(1).JPG',
+      synopsis: 'Pingkan adalah gadis yang cerdas, cantik, humoris, berkarakter kuat, dan bahkan seorang fotomodel. Ia mengambil jurusan Fisika di Universitas Murdoch dan meraih indeks prestasi (IP) tinggi 3,75. Kepergiannya ke Australia membawa banyak perubahan dalam hidupnya. Di tengah lingkungan asing, Pingkan mengalami dinamika pencarian identitas dan semakin dekat dengan nilai-nilai kebenaran Islam.'
     },
     {
       id: 2,
-      title: 'Tips Hidup Bahagia Ala Cuking',
-      author: 'Meow Meiw, S.Kom',
+      title: 'Kami Masih Ada',
+      author: 'Maimon Herawati',
       isbn: 'xxx-xxx-xxxxx-x-x',
       category: 'Kajian Palestina',
-      cover: '/covers/cat.jpg',
-      synopsis: 'Solusi hidup bahagia seperti kucing, cukup meow meow kemudian makan dan tidur saja.'
+      cover: '/covers/katalog(2).JPG',
+      synopsis: 'Buku ini mengisahkan keteguhan dan daya tahan luar biasa rakyat Palestina dalam mempertahankan tanah air, hak, dan keyakinan mereka di tengah konflik penjajahan. Cerita berfokus pada perjuangan para aktivis kemanusiaan dan pejuang yang memilih bergerak dalam senyap, menghadapi kejamnya jeruji besi, namun menolak untuk menyerah demi membuktikan kepada dunia bahwa napas perjuangan mereka tidak akan pernah padam.'
     },
     {
       id: 3,
-      title: 'Perjalanan Developer Menemukan Secangkir Kopi Pahit',
-      author: 'Barista Point Kopi Indomaret',
+      title: 'Muara Kasih',
+      author: 'Maimon Herawati',
       isbn: 'xxx-xxx-xxxxx-x-x',
       category: 'Self Reminder',
-      cover: '/covers/barista.jpg',
-      synopsis: 'Buku ini mengurai tentang perjalan kopi menemukan konsumer terbaiknya, pahit dan hitam khas developer.'
+      cover: '/covers/katalog(3).JPG',
+      synopsis: 'Buku ini mengisahkan tentang perjalanan spiritual, ujian kesabaran, dan keteguhan iman sebuah keluarga dalam melewati badai ujian hidup untuk menemukan muara kasih sayang yang hakiki berlandaskan nilai-nilai Islam.'
     }
   ];
 
@@ -358,8 +358,8 @@ export default function App() {
                 <IconMail />
                 <div>
                   <div style={{ fontWeight: 700, color: 'var(--accent-gold-light)' }}>Email Resmi Redaksi</div>
-                  <a href="mailto:redaksi@zaitunkreasi.com" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
-                    redaksi@zaitunkreasi.com
+                  <a href="mailto:redaksi.zaitunkreasicendekia@gmail.com" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
+                    redaksi.zaitunkreasicendekia@gmail.com
                   </a>
                   <div style={{ fontSize: '0.85rem', color: '#d1c5b4', marginTop: '0.2rem' }}>Untuk pengiriman draf naskah & korespondensi ilmiah</div>
                 </div>
