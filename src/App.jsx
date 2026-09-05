@@ -162,7 +162,7 @@ export default function App() {
     setTimeout(() => {
       // Create WhatsApp message string
       const text = `Halo Redaksi PT Zaitun Kreasi Cendekia,\nSaya bermaksud mengajukan naskah:\n- Nama: ${submitForm.name}\n- Email: ${submitForm.email}\n- Judul Naskah: ${submitForm.title}\n- Kategori: ${submitForm.category}\n- Ringkasan: ${submitForm.summary}`;
-      const waUrl = `https://wa.me/6289602685854?text=${encodeURIComponent(text)}`;
+      const waUrl = `https://wa.me/628818382536text=${encodeURIComponent(text)}`;
       window.open(waUrl, '_blank');
       setFormSubmitted(false);
       setIsSubmitModalOpen(false);
