@@ -162,7 +162,7 @@ export default function App() {
     setTimeout(() => {
       // Create WhatsApp message string
       const text = `Halo Redaksi PT Zaitun Kreasi Cendekia,\nSaya bermaksud mengajukan naskah:\n- Nama: ${submitForm.name}\n- Email: ${submitForm.email}\n- Judul Naskah: ${submitForm.title}\n- Kategori: ${submitForm.category}\n- Ringkasan: ${submitForm.summary}`;
-      const waUrl = `https://wa.me/message/23XYLKTANAZAK1?text=${encodeURIComponent(text)}`;
+      const waUrl = `https://wa.me/23XYLKTANAZAK1?text=${encodeURIComponent(text)}`;
       window.open(waUrl, '_blank');
       setFormSubmitted(false);
       setIsSubmitModalOpen(false);
@@ -742,7 +742,7 @@ export default function App() {
 
       {/* Floating WhatsApp Action Button */}
       <a
-        href="https://wa.me/message/23XYLKTANAZAK1?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
+        href="https://wa.me/23XYLKTANAZAK1?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
         target="_blank"
         rel="noreferrer"
         className="wa-float"
@@ -878,7 +878,7 @@ export default function App() {
                 </p>
                 <div style={{ marginTop: '1.5rem' }}>
                   <a
-                    href={`https://wa.me/message/23XYLKTANAZAK1?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
+                    href={`https://wa.me/23XYLKTANAZAK1?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
