@@ -162,7 +162,7 @@ export default function App() {
     setTimeout(() => {
       // Create WhatsApp message string
       const text = `Halo Redaksi PT Zaitun Kreasi Cendekia,\nSaya bermaksud mengajukan naskah:\n- Nama: ${submitForm.name}\n- Email: ${submitForm.email}\n- Judul Naskah: ${submitForm.title}\n- Kategori: ${submitForm.category}\n- Ringkasan: ${submitForm.summary}`;
-      const waUrl = `https://wa.me/628818382536text=${encodeURIComponent(text)}`;
+      const waUrl = `https://wa.me/message/23XYLKTANAZAK1?text=${encodeURIComponent(text)}`;
       window.open(waUrl, '_blank');
       setFormSubmitted(false);
       setIsSubmitModalOpen(false);
@@ -369,7 +369,7 @@ export default function App() {
                 <IconPhone />
                 <div>
                   <div style={{ fontWeight: 700, color: 'var(--accent-gold-light)' }}>Telepon / Layanan WhatsApp</div>
-                  <a href="https://wa.me/628818382536" target="_blank" rel="noreferrer" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
+                  <a href="https://wa.me/message/23XYLKTANAZAK1" target="_blank" rel="noreferrer" style={{ color: '#ffffff', fontSize: '1.05rem', fontWeight: 600, display: 'block', marginTop: '0.2rem' }}>
                     +628-818-382-536
                   </a>
                   <div style={{ fontSize: '0.85rem', color: '#d1c5b4', marginTop: '0.2rem' }}>Layanan konsultasi penerbitan & informasi naskah</div>
@@ -742,7 +742,7 @@ export default function App() {
 
       {/* Floating WhatsApp Action Button */}
       <a
-        href="https://wa.me/628818382536?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
+        href="https://wa.me/message/23XYLKTANAZAK1?text=Halo%20Redaksi%20PT%20Zaitun%20Kreasi%20Cendekia,%20saya%20ingin%20konsultasi%20penerbitan%20naskah."
         target="_blank"
         rel="noreferrer"
         className="wa-float"
@@ -878,7 +878,7 @@ export default function App() {
                 </p>
                 <div style={{ marginTop: '1.5rem' }}>
                   <a
-                    href={`https://wa.me/628818382536?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
+                    href={`https://wa.me/message/23XYLKTANAZAK1?text=Halo%20Redaksi,%20saya%20tertarik%20dengan%20terbitan:%20${encodeURIComponent(selectedBook.title)}`}
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-primary"
